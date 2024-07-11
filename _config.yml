@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jiajia Xie / Personal Website"
+title                    : "Jiajia/ Personal Website"
 title_separator          : "-"
 name                     : &name "Jiajia Xie"
 description              : &description "personal description"
-url                      : https://jiajiaxie.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://jiajiaxie.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jiajiaxie23/jiajiaxie.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Jiajia Xie"
   avatar           : "avatar.png"
-  bio              : "While my piano and math are awaful, I love playing them :)"
+  bio              : "With my math and music"
   location         : "Atlanta, GA"
-  employer         : "https://sites.gatech.edu/cassie-mitchell-lab/"
+  employer         : "https://gatech.edu/"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=mkhe3_IAAAAJ&hl=en"
   email            :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "jiajiaxie23"
+  github           : 
   google_plus      :
   keybase          :
   instagram        :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : #
+  twitter          : 
   vine             :
   weibo            :
   xing             :
