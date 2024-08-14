@@ -16,9 +16,11 @@ The kinetics behind a lot of social, physical, and pathologocial dynamics are no
 
 
 
-* **Network Diffusion Constrained Generative Models of Brain Connectomes under Neurological Diseases**: Comming soon!
+* **Network Diffusion Constrained Generative Models of Brain Connectomes under Neurological Diseases**: 
+  - **Network Diffusion Constrained Variational Generative Models** :Under Reviews!
+  - **Score-based Stochastic Network Diffusion Models for Network Reconstruction over Time**
 
-* **Source-robust Reconstruction of Temporal-network Diffusion under Online Noise**: Comming soon!
+* **Non-parametric Temporal Reconstruction of Network Diffusion Processes under Online Noise**: Under Reviews!
 
 * **Representative Deep-Gray Themodynamic Models of Residenital Buildings**: ([Energy & Buildings 2024](https://www.sciencedirect.com/science/article/abs/pii/S0378778824005243))
 
