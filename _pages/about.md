@@ -20,8 +20,8 @@ The kinetics behind a lot of social, physical, and pathologocial dynamics are no
   - Network Diffusion Constrained Variational Generative Models: Under Reviews!
   - Score-based Stochastic Network Diffusion Models for Connectomes Reconstruction over Time
 
-* **Optimization models of Network Diffusion**
-  - Robust Temporal Reconstruction of Network Diffusion Processes under Online Noise: Under Reviews!
+* **Optimization Algorithms and Graph Theory**
+  - Robust Steiner-Tree Temporal Reconstruction of Network Diffusion Processes under Online Noise: Under Reviews!
 
 * **Physics-constrained Machine Learning**
   - Representative Deep-Gray Themodynamic Models of Residenital Buildings: ([Energy & Buildings 2024](https://www.sciencedirect.com/science/article/abs/pii/S0378778824005243))
