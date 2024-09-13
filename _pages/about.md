@@ -15,7 +15,7 @@ My academic background includes studies in Economics and Mathematics, leading to
 
 A key focus of my Ph.D. research is the examination of the dynamics involved in various social, physical, and pathological processes. These dynamics can be understood as networks and perturbations, which play crucial roles. These networks can represent diverse connections, including those that are online, sparse or expensive to approximate and maintain. I am particularly interested in exploring whether it is possible to reverse-engineer a model that simulates real-world processes on these networks in order to complete the networks, re-establish their progression, or generate new data. This area of research continues to be a significant focus of my Ph.D. program.
 ```math
-\textcolor{red}{\tetbf{Our lab will hire one master or bachelor student as a short-term research assistant for the project of Score-based Network Diffusion Models for Connectomes Dynamics under Neurodegeneration. Please see the [job describtion](https://docs.google.com/document/d/1LP-zkn3ZYpa--gsa2nxP8a6LTyTPWJOMLnEie77xCfI/edit). Please drop me an email if you are interested.}}
+\textcolor{red}{\tetbf{Our lab will hire one master or bachelor student as a short-term research assistant for the project of Score-based Network Diffusion Models for Connectomes Dynamics under Neurodegeneration. Please see the [job description](https://docs.google.com/document/d/1LP-zkn3ZYpa--gsa2nxP8a6LTyTPWJOMLnEie77xCfI/edit). Please drop me an email if you are interested.}}
 ```
 
 * **Generative Models of Brain Connectomes under Neurological Diseases**: 
