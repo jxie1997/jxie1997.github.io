@@ -16,7 +16,7 @@ My academic background includes studies in Economics and Mathematics, leading to
 A key focus of my Ph.D. research is the study of social, physical, and pathological dynamics which can be understood as networks and perturbations. These networks can represent diverse connections, including those that are online, sparse or expensive to approximate and maintain. I am particularly interested in exploring whether it is possible to reverse-engineer a such model in order to complete the networks, re-establish their progression, or generate new data. This area of research continues to be a significant focus of my Ph.D. program.
 
 
-<span style="color: red"> If you are Master/Bachelor student interested in working with me, feel free to drop me an email with your CV/Resume. </span>
+<span style="color: red"> If you are Master/Bachelor student interested in working with me, feel free to drop me an email or my PI with your CV/Resume. </span>
 
 * **Generative Models of Brain Connectomes under Neurological Diseases**: 
   - Network Diffusion Constrained Variational Generative Models: Under Reviews!
