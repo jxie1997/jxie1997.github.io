@@ -19,11 +19,11 @@ A key focus of my Ph.D. research is the study of social, physical, and pathologi
 <span style="color: red"> If you are Master/Bachelor student interested in working with me, feel free to drop me an email or my PI with your CV/Resume. </span>
 
 * **Generative Models of Brain Connectomes under Neurological Diseases**: 
-  - Network Diffusion Constrained Variational Generative Models: Under Reviews!
-  - Score-based Stochastic Network Diffusion Models for Connectomes Dyanmics under Neuodegeneration
+  - (Removed temporaily for review anonymization): Coming Soon
+  - Score-based Stochastic Network Diffusion Models for Connectomes Dynamics under Neuodegeneration
 
 * **Optimization Algorithms and Graph Theory**
-  - Robust Steiner-Tree Temporal Reconstruction of Network Diffusion Processes under Online Noise: Under Reviews!
+  - (Removed temporaily for review anonymization): Coming Soon
 
 * **Physics-constrained Machine Learning**
   - Representative Deep-Gray Themodynamic Models of Residenital Buildings: ([Energy & Buildings 2024](https://www.sciencedirect.com/science/article/abs/pii/S0378778824005243))
