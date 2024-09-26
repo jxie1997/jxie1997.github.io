@@ -43,4 +43,4 @@ Outside of research, I am a dreamer, a reader, and an audience of musicals, spor
 ### Contact Me
 
 * My email address is jxie{at}gatech{dot}edu.
-<!-- * My full CV is [here](https://). (Updated ) -->
+* My full CV is [here](https://jxie1997.github.io/files/JiajiaXie_resume.pdf). (Updated Sept 2024) 
