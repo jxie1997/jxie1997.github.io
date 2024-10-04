@@ -18,7 +18,7 @@ A key focus of my Ph.D. research is the study of social, physical, and pathologi
 
 <span style="color: red"> I am actively seeking internship opportunities in machine learning science and engineering, data science, and quantitative research for Summer 2025. </span>
 
-* **Generative Models of Brain Connectomes under Neurological Diseases **: 
+* **Generative Models of Brain Connectomes under Neurological Diseases**
   - (Removed temporarily for review anonymization): Coming Soon
   - Score-based Stochastic Network Diffusion Models for Connectomes Dynamics under Neurodegeneration
 
