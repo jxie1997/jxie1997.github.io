@@ -13,20 +13,20 @@ I am currently a Ph.D. student in the interdisciplinary [Computational Science a
 
 My academic background includes studies in Economics and Mathematics, leading to the attainment of my BS from Presbyterian College, SC, United States.
 
-A key focus of my Ph.D. research is the study of social, physical, and pathological dynamics which can be understood as networks and perturbations. These networks can represent diverse connections, including those that are online, sparse or expensive to approximate and maintain. I am particularly interested in exploring whether it is possible to reverse-engineer a such model in order to complete the networks, re-establish their progression, or generate new data. This area of research continues to be a significant focus of my Ph.D. program.
+A key focus of my Ph.D. research is the study of social, physical, and pathological dynamics which can be understood as networks and perturbations. These networks can represent diverse connections, including those that are online, sparse, or expensive to approximate and maintain. I am particularly interested in exploring whether it is possible to reverse-engineer a such model in order to complete the networks, re-establish their progression, or generate new data. This area of research continues to be a significant focus of my Ph.D. program.
 
 
-<span style="color: red"> If you are Master/Bachelor student interested in working with me, feel free to drop me an email or my PI with your CV/Resume. </span>
+<span style="color: red"> I am actively seeking internship opportunities in machine learning science and engineering, data science, and quantitative research for Summer 2025. </span>
 
-* **Generative Models of Brain Connectomes under Neurological Diseases**: 
-  - (Removed temporaily for review anonymization): Coming Soon
-  - Score-based Stochastic Network Diffusion Models for Connectomes Dynamics under Neuodegeneration
+* **Generative Models of Brain Connectomes under Neurological Diseases **: 
+  - (Removed temporarily for review anonymization): Coming Soon
+  - Score-based Stochastic Network Diffusion Models for Connectomes Dynamics under Neurodegeneration
 
 * **Optimization Algorithms and Graph Theory**
-  - (Removed temporaily for review anonymization): Coming Soon
+  - (Removed temporarily for review anonymization): Coming Soon
 
 * **Physics-constrained Machine Learning**
-  - Representative Deep-Gray Themodynamic Models of Residenital Buildings: ([Energy & Buildings 2024](https://www.sciencedirect.com/science/article/abs/pii/S0378778824005243))
+  - Representative Deep-Gray Thermodynamic Models of Residential Buildings: ([Energy & Buildings 2024](https://www.sciencedirect.com/science/article/abs/pii/S0378778824005243))
 
 Off the main stem, I also explored these topics:  
 
@@ -35,7 +35,6 @@ Off the main stem, I also explored these topics:
 * **Empirical WiFi Datasets for Localizing Covid-19 Intervention**: ([Front. in Digital Health 2023](https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2023.1060828/full))
 
 Outside of research, I am a dreamer, a reader, and an audience of musicals, sports, and concerts (🖤🩷). 
-
 
 
 
