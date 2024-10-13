@@ -19,7 +19,7 @@ A key focus of my Ph.D. research is the study of social, physical, and pathologi
 <span style="color: red"> I am actively seeking internship opportunities in machine learning science and engineering, data science, and quantitative research for Summer 2025. </span>
 
 * **Generative Models of Brain Connectomes under Neurological Diseases**
-  - Variational-Autoencoder-like Methods for Generating Brain Connectome Under Neurological Diseases: [slides](https://docs.google.com/presentation/d/1LJOo5PBK9jTwwdqDW0GfyZa0iHg-qHw0OH32yLysi14/edit#slide=id.g22475233008_0_147)
+  - Variational-Autoencoder-like Methods for Generating Brain Connectome Under Neurological Diseases: 
   - Score-based Stochastic Network Diffusion Models for Connectomes Dynamics under Neurodegeneration: 
 
 * **Optimization Algorithms and Graph Theory**
