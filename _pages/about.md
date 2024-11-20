@@ -16,8 +16,6 @@ My academic background includes studies in Economics and Mathematics, leading to
 A key focus of my Ph.D. research is the study of social, physical, and pathological dynamics which can be understood as networks and perturbations. These networks can represent diverse connections, including those that are online, sparse, or expensive to approximate and maintain. I am particularly interested in exploring whether it is possible to reverse-engineer a such model in order to complete the networks, re-establish their progression, or generate new data. This area of research continues to be a significant focus of my Ph.D. program.
 
 
-<span style="color: red"> I am actively seeking internship opportunities in machine learning science and engineering, data science, and quantitative research for Summer 2025. </span>
-
 * **Generative Models of Brain Connectomes under Neurological Diseases**
   - Variational-Autoencoder-like Methods for Generating Brain Connectome Under Neurological Diseases: 
   - Score-based Stochastic Network Diffusion Models for Connectomes Dynamics under Neurodegeneration: 
