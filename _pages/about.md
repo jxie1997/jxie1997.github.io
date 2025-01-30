@@ -17,7 +17,7 @@ A key focus of my Ph.D. research is the study of social, physical, and pathologi
 
 
 * **Generative Models of Brain Connectomes under Neurological Diseases**
-  - Variational-Autoencoder-like Methods for Generating Brain Connectome Under Neurological Diseases: 
+  - Variational-Autoencoder-like Methods for Generating Brain Connectome Under Neurological Diseases ([IJMS 2025](https://www.mdpi.com/1422-0067/26/3/1062)): 
   - Score-based Stochastic Network Diffusion Models for Connectomes Dynamics under Neurodegeneration: 
 
 * **Optimization Algorithms and Graph Theory**
@@ -40,4 +40,4 @@ Outside of research, I am a dreamer, a reader, and an audience of musicals, spor
 ### Contact Me
 
 * My email address is jxie{at}gatech{dot}edu.
-<!-- * My Resume is [here](https://jxie1997.github.io/files/JiajiaXie_resume.pdf). (Updated Sept 2024)  -->
+* My Resume is [here](https://jxie1997.github.io/files/JiajiaXie_resume.pdf). (Updated Sept 2024) 
