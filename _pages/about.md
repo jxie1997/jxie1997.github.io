@@ -19,19 +19,19 @@ A key focus of my Ph.D. research is the study of social, physical, and pathologi
 * **Optimal Control and Reinforcement Learning**
   - Modeling Neurodenerative Diseases' Pathology Dynamics by Stochastic Optimal Control of Misfolded Proteins Dynamics
 
-* **Generative Models of Brain Connectomes under Neurological Diseases**
+* **Bio-mechanistic Generative Models**
   - Variational-Autoencoder-like Methods for Generating Brain Connectome Under Neurological Diseases ([IJMS 2025](https://www.mdpi.com/1422-0067/26/3/1062)): 
   - Score-based Stochastic Network Diffusion Models for Connectomes Dynamics under Neurodegeneration: 
+  - Score-based Diffusional Event-based Modeling for High-dimensional Monotonic Diseases Progression Dynamics:
 
-* **Optimization Algorithms and Graph Theory**
+* **Online Decision Making and Optimization**
   - Source Robust Non-parametric Reconstruction of Epidemic-like Event-based Network Diffusion Processes under Online Data (Submitted to PLOS Computational Biology)
+  - Augmenting Bayesian Topic Models using Online Confirmation from Community-driven Apps: ([BuildSys 2023](https://dl.acm.org/doi/abs/10.1145/3600100.3626341))
 
 * **Physics-constrained Machine Learning**
   - Representative Deep-Gray Thermodynamic Models of Residential Buildings: ([Energy & Buildings 2024](https://www.sciencedirect.com/science/article/abs/pii/S0378778824005243))
 
 Off the main stem, I also explored these topics:  
-
-* **Augmenting Bayesian Topic Models using Online Confirmation from Community-driven Apps**: ([BuildSys 2023](https://dl.acm.org/doi/abs/10.1145/3600100.3626341))
 
 * **Empirical WiFi Datasets for Localizing Covid-19 Intervention**: ([Front. in Digital Health 2023](https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2023.1060828/full))
 
