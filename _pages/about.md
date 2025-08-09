@@ -17,20 +17,20 @@ I hold a B.S. in Economics and Mathematics from Presbyterian College (South Caro
 ### Experience
 
 **Applied Scientist Intern** – [Amazon AMXL](https://www.amazon.science/) *(Summer 2025)*  
-- Developed and deployed a neural latent ODE model for station-level delivery forecasts with uncertainty
+<!-- - Developed and deployed a neural latent ODE model for station-level delivery forecasts with uncertainty
   quantification on attainment rates.
 - Evaluated the model on all week+1 forecasts datasets, outperforming baseline model by 8 out of 9 parcel
   types and estimated to save $7M on operational costs over 6 months for AMXL networks.
-- Productionized the pipeline via AWS Step Functions with EC2 Batch, adopted by the Demand Planning Team.
+- Productionized the pipeline via AWS Step Functions with EC2 Batch, adopted by the Demand Planning Team. -->
 
 **Data Scientist Intern** – [Tesla](https://tesla.com/) *(Fall 2023)*  
-  - Built weekday-matching logic for energy demand shift modeling, improving holiday forecast accuracy by 30%.
+  <!-- - Built weekday-matching logic for energy demand shift modeling, improving holiday forecast accuracy by 30%.
   - Created a changepoint detection method using Fisher ratio and AUC-based thresholding, improving precision
-    by 10%.
+    by 10%. -->
 
 **Research Intern** – [Lawrence Berkeley National Laboratory](https://www.lbl.gov/) *(Summer 2023)*  
-- Designed **representative thermodynamic models** using meta-learning for residential buildings.  
-- Enabled scalable simulations for energy efficiency and grid-interactive control.
+<!-- - Designed **representative thermodynamic models** using meta-learning for residential buildings.  
+- Enabled scalable simulations for energy efficiency and grid-interactive control. -->
 
 ---
 
