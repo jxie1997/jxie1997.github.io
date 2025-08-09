@@ -1,46 +1,73 @@
 ---
-permalink: /
+# permalink: /
 title: 
-excerpt: "About me"
+excerpt: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
+I am a Ph.D. candidate in the interdisciplinary [Computational Science and Engineering](https://cse.gatech.edu/) program at Georgia Tech, advised by [Prof. Cassie S. Mitchell](https://bme.gatech.edu/bme/faculty/Cassie-S.-Mitchell) in the Laboratory for Pathology Dynamics. I previously earned my M.S. in the same program under the joint supervision of [Prof. B. Aditya Prakash](https://faculty.cc.gatech.edu/~badityap/) and [Prof. Lauren N. Steimle](https://sites.gatech.edu/steimle/), focusing on WiFi networks, mobility data, and COVID-19 modeling.  
 
-I am currently a Ph.D. candidate in the interdisciplinary [Computational Science and Engineering](https://cse.gatech.edu/) program at Georgia Tech, where I am fortunate to be advised by [Prof. Cassie S. Mitchell](https://bme.gatech.edu/bme/faculty/Cassie-S.-Mitchell) from the Laboratory for Pathology Dynamics. Previously, I earned my M.S. in the same major under the joint supervision of [Prof. B. Aditya Prakash](https://faculty.cc.gatech.edu/~badityap/) and [Prof. Lauren N. Steimle](https://sites.gatech.edu/steimle/), focusing on WiFi networks, mobility data, and Covid-19 models. I also completed internships at [Tesla](https://tesla.com/), working on the networking planning of superchargers, and at [Berkeley Lab](https://www.lbl.gov/), working on large-scale representative thermodynamic models. I will join [Amazon Science](https://www.amazon.science/) as an Applied Scientist Intern in the summer 2025. 
+I hold a B.S. in Economics and Mathematics from Presbyterian College (South Carolina, USA).
 
-My academic background includes studies in Economics and Mathematics, leading to the attainment of my BS from Presbyterian College, SC, United States.
+---
 
-A key focus of my Ph.D. research is the study of social, physical, and pathological dynamics which can be understood as networks and perturbations. These networks can represent diverse connections, including those that are online, sparse, or expensive to approximate and maintain. I am particularly interested in exploring whether it is possible to reverse-engineer a such model in order to complete the networks, re-establish their progression, or generate new data. This area of research continues to be a significant focus of my Ph.D. program.
+### Experience
 
+**Applied Scientist Intern** – [Amazon AMXL](https://www.amazon.science/) *(Summer 2025)*  
+- Developed and deployed a **neural latent ODE** forecasting model for demand planning.  
+- Integrated the model into AWS Step Functions for production use.  
 
-* **Optimal Control and Reinforcement Learning**
-  - Modeling Neurodenerative Diseases' Pathology Dynamics by Stochastic Optimal Control of Misfolded Proteins Dynamics
+**Data Scientist Intern** – [Tesla](https://tesla.com/) *(Summer 2023)*  
+- Optimized **supercharger network planning** using geospatial modeling and network optimization.  
+- Built simulation pipelines for large-scale infrastructure planning.  
 
-* **Bio-mechanistic Generative Models**
-  - Variational-Autoencoder-like Methods for Generating Brain Connectome Under Neurological Diseases ([IJMS 2025](https://www.mdpi.com/1422-0067/26/3/1062)): 
-  - Score-based Stochastic Network Diffusion Models for Connectomes Dynamics under Neurodegeneration: 
-  - Score-based Diffusional Event-based Modeling for High-dimensional Monotonic Diseases Progression Dynamics:
+**Research Intern** – [Lawrence Berkeley National Laboratory](https://www.lbl.gov/) *(Summer 2022)*  
+- Designed **representative thermodynamic models** for residential buildings.  
+- Enabled scalable simulations for energy efficiency and grid-interactive control.
 
-* **Online Decision Making and Optimization**
-  - Source Robust Non-parametric Reconstruction of Epidemic-like Event-based Network Diffusion Processes under Online Data (Submitted to PLOS Computational Biology)
-  - Augmenting Bayesian Topic Models using Online Confirmation from Community-driven Apps: ([BuildSys 2023](https://dl.acm.org/doi/abs/10.1145/3600100.3626341))
+---
 
-* **Physics-constrained Machine Learning**
-  - Representative Deep-Gray Thermodynamic Models of Residential Buildings: ([Energy & Buildings 2024](https://www.sciencedirect.com/science/article/abs/pii/S0378778824005243))
+### Research Interests
 
-Off the main stem, I also explored these topics:  
+A central theme of my research is understanding **social, physical, and pathological dynamics** as networked systems subject to perturbations. My work asks:  
 
-* **Empirical WiFi Datasets for Localizing Covid-19 Intervention**: ([Front. in Digital Health 2023](https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2023.1060828/full))
+> *Can we reverse-engineer or fine-tune base systems to recover missing connections, reconstruct their evolution, or generate plausible new data?*  
 
-Outside of research, I am a dreamer, a reader, and an audience of musicals, sports, and concerts (🖤🩷). 
+To address this, my Ph.D. work integrates **optimal control, generative modeling, and physics-informed learning** to model and intervene in complex dynamical systems.
 
+---
 
+### Selected Research Areas & Projects
 
+**Stochastic Optimal Control for Diffusion Models in Pathophysiology**  
+- Modeling neurodegenerative disease progression via stochastic optimal control of misfolded protein dynamics.
 
-### Contact Me
+**Bio-mechanistic Generative Models**  
+- Variational autoencoder–style approaches for generating brain connectomes under neurological diseases ([IJMS 2025](https://www.mdpi.com/1422-0067/26/3/1062)).  
+- Score-based stochastic network diffusion models for connectome dynamics under neurodegeneration.  
+- Score-based diffusional event-based modeling for high-dimensional, monotonic disease progression.
 
-* My email address is jxie{at}gatech{dot}edu.
-* My Resume is [here](https://jxie1997.github.io/files/JiajiaXie_resume.pdf). (Updated Sept 2024) 
+**Online Decision Making and Optimization**  
+- Source-robust, non-parametric reconstruction of epidemic-like event-based network diffusion processes with online data *(Submitted to PLOS Computational Biology)*.  
+- Augmenting Bayesian topic models using online confirmations from community-driven apps ([BuildSys 2023](https://dl.acm.org/doi/abs/10.1145/3600100.3626341)).
+
+**Physics-Constrained Machine Learning**  
+- Representative deep-gray thermodynamic models of residential buildings ([Energy & Buildings 2024](https://www.sciencedirect.com/science/article/abs/pii/S0378778824005243)).
+
+**Additional Work**  
+- Empirical WiFi datasets for localizing COVID-19 interventions ([Frontiers in Digital Health 2023](https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2023.1060828/full)).
+
+---
+
+Outside of research, I am a dreamer, reader, and enthusiastic audience member of musicals, sports, and concerts (🖤🩷).
+
+---
+
+### Contact
+
+- **Email**: jxie{at}gatech{dot}edu  
+- **Resume**: [Download PDF](https://jxie1997.github.io/files/JiajiaXie_resume.pdf) *(Updated Aug 2025)*
+
