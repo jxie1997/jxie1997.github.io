@@ -17,15 +17,19 @@ I hold a B.S. in Economics and Mathematics from Presbyterian College (South Caro
 ### Experience
 
 **Applied Scientist Intern** – [Amazon AMXL](https://www.amazon.science/) *(Summer 2025)*  
-- Developed and deployed a **neural latent ODE** forecasting model for demand planning.  
-- Integrated the model into AWS Step Functions for production use.  
+- Developed and deployed a neural latent ODE model for station-level delivery forecasts with uncertainty
+  quantification on attainment rates.
+- Evaluated the model on all week+1 forecasts datasets, outperforming baseline model by 8 out of 9 parcel
+  types and estimated to save $7M on operational costs over 6 months for AMXL networks.
+- Productionized the pipeline via AWS Step Functions with EC2 Batch, adopted by the Demand Planning Team.
 
-**Data Scientist Intern** – [Tesla](https://tesla.com/) *(Summer 2023)*  
-- Optimized **supercharger network planning** using geospatial modeling and network optimization.  
-- Built simulation pipelines for large-scale infrastructure planning.  
+**Data Scientist Intern** – [Tesla](https://tesla.com/) *(Fall 2023)*  
+  - Built weekday-matching logic for energy demand shift modeling, improving holiday forecast accuracy by 30%.
+  - Created a changepoint detection method using Fisher ratio and AUC-based thresholding, improving precision
+    by 10%.
 
-**Research Intern** – [Lawrence Berkeley National Laboratory](https://www.lbl.gov/) *(Summer 2022)*  
-- Designed **representative thermodynamic models** for residential buildings.  
+**Research Intern** – [Lawrence Berkeley National Laboratory](https://www.lbl.gov/) *(Summer 2023)*  
+- Designed **representative thermodynamic models** using meta-learning for residential buildings.  
 - Enabled scalable simulations for energy efficiency and grid-interactive control.
 
 ---
@@ -34,7 +38,7 @@ I hold a B.S. in Economics and Mathematics from Presbyterian College (South Caro
 
 A central theme of my research is understanding **social, physical, and pathological dynamics** as networked systems subject to perturbations. My work asks:  
 
-> *Can we reverse-engineer or fine-tune base systems to recover missing connections, reconstruct their evolution, or generate plausible new data?*  
+> *Can we reverse-engineer, fine-tune, or control base systems to recover missing connections, reconstruct their evolution, or generate plausible new data?*  
 
 To address this, my Ph.D. work integrates **optimal control, generative modeling, and physics-informed learning** to model and intervene in complex dynamical systems.
 
@@ -42,7 +46,7 @@ To address this, my Ph.D. work integrates **optimal control, generative modeling
 
 ### Selected Research Areas & Projects
 
-**Stochastic Optimal Control for Diffusion Models in Pathophysiology**  
+**Stochastic Optimal Control for Fine-tuning Diffusion Models in Pathophysiology**  
 - Modeling neurodegenerative disease progression via stochastic optimal control of misfolded protein dynamics.
 
 **Bio-mechanistic Generative Models**  
