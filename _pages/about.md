@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "Jiajia Xie"
 excerpt: "About Me"
 author_profile: true
 redirect_from: 
@@ -10,6 +9,9 @@ redirect_from:
 
 I am a Ph.D. candidate in the interdisciplinary *[Computational Science and Engineering](https://cse.gatech.edu/)* program at Georgia Tech, advised by *[Prof. Cassie S. Mitchell](https://bme.gatech.edu/bme/faculty/Cassie-S.-Mitchell)* in the Laboratory for Pathology Dynamics. I previously earned my M.S. in the same program under the joint supervision of *[Prof. B. Aditya Prakash](https://faculty.cc.gatech.edu/~badityap/)* and *[Prof. Lauren N. Steimle](https://sites.gatech.edu/steimle/)*, focusing on WiFi networks, mobility data, and COVID-19 modeling. I hold a B.S. in Economics and Mathematics from Presbyterian College (South Carolina, USA). During my Ph.D., I interned at *[Amazon](https://www.amazon.science/)*, *[Tesla](https://tesla.com/)*, and *[Berkeley Lab](https://www.lbl.gov/)*.
 
+<span style="color:red; font-weight:bold;">I am actively looking for a full time position in Machine Learning Scientist/Engineer beginning in early 2026 after graduation.</span>
+
+
 ---
 
 ### Research Interests
@@ -18,18 +20,17 @@ A central theme of my research is bridging modern generative models with physica
 
 ---
 
-### Selected Research Areas & Projects
-
 **Bio-mechanistic Generative Models**
-- Variational autoencoder–style approaches for generating brain connectomes under neurological diseases ([*International Journal of Molecular Sciences* 2025](https://www.mdpi.com/1422-0067/26/3/1062)).
+- Variational autoencoder–style approaches for generating brain connectomes under neurological diseases ([*IJMS* 2025](https://www.mdpi.com/1422-0067/26/3/1062)).
 - Dynamic Brain Connectome Vulnerability in Neurodegeneration via Score-based Network Diffusion *(coming soon!)*.
 - Diffusion Bridge Sampler and Stochastic Optimal Control *(title removed for review anonymization)*.
 
 **Additional Work**
-- Source-robust, non-parametric reconstruction of epidemic-like event-based network diffusion processes with online data *(submitted to PLOS Computational Biology)*.  
-- Augmenting Bayesian topic models using online confirmations from community-driven apps ([*BuildSys* 2023](https://dl.acm.org/doi/abs/10.1145/3600100.3626341)).  
-- Representative deep-gray thermodynamic models of residential buildings ([*Energy & Buildings* 2024](https://www.sciencedirect.com/science/article/abs/pii/S0378778824005243)).  
-- Empirical WiFi datasets for localizing COVID-19 interventions ([*Frontiers in Digital Health* 2023](https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2023.1060828/full)).
+- Source-robust, non-parametric reconstruction of epidemic-like event-based network diffusion processes with online data *(coming soon!)*  
+- Augmenting Bayesian topic models using online confirmations from community-driven apps ([*BuildSys* 2023](https://dl.acm.org/doi/abs/10.1145/3600100.3626341))  
+- Representative deep-gray thermodynamic models of residential buildings ([*Energy & Buildings* 2024](https://www.sciencedirect.com/science/article/abs/pii/S0378778824005243))  
+- Empirical WiFi datasets for localizing COVID-19 interventions ([*Frontiers in Digital Health* 2023](https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2023.1060828/full))
+
 
 ---
 
