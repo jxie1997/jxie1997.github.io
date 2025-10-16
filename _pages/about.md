@@ -26,7 +26,7 @@ A central theme of my research is bridging modern generative models with physica
 - Diffusion Bridge Sampler and Stochastic Optimal Control *(title removed for review anonymization)*.
 
 **Additional Work**
-- Source-robust, non-parametric reconstruction of epidemic-like event-based network diffusion processes with online data *(coming soon!)*  
+- Source-robust non-parametric reconstruction of epidemic-like event-based network diffusion processes with online data ([*BDCC* 2025](https://www.mdpi.com/2504-2289/9/10/262))
 - Augmenting Bayesian topic models using online confirmations from community-driven apps ([*BuildSys* 2023](https://dl.acm.org/doi/abs/10.1145/3600100.3626341))  
 - Representative deep-gray thermodynamic models of residential buildings ([*Energy & Buildings* 2024](https://www.sciencedirect.com/science/article/abs/pii/S0378778824005243))  
 - Empirical WiFi datasets for localizing COVID-19 interventions ([*Frontiers in Digital Health* 2023](https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2023.1060828/full))
