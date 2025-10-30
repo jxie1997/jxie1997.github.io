@@ -9,9 +9,6 @@ redirect_from:
 
 I am a Ph.D. candidate in the interdisciplinary *[Computational Science and Engineering](https://cse.gatech.edu/)* program at Georgia Tech, advised by *[Prof. Cassie S. Mitchell](https://bme.gatech.edu/bme/faculty/Cassie-S.-Mitchell)* in the Laboratory for Pathology Dynamics. I previously earned my M.S. in the same program under the joint supervision of *[Prof. B. Aditya Prakash](https://faculty.cc.gatech.edu/~badityap/)* and *[Prof. Lauren N. Steimle](https://sites.gatech.edu/steimle/)*, focusing on WiFi networks, mobility data, and COVID-19 modeling. I hold a B.S. in Economics and Mathematics from Presbyterian College (South Carolina, USA). During my Ph.D., I interned at *[Amazon](https://www.amazon.science/)*, *[Tesla](https://tesla.com/)*, and *[Berkeley Lab](https://www.lbl.gov/)*.
 
-<span style="color:red; font-weight:bold;">I am actively looking for a full time position in Machine Learning Scientist/Engineer beginning in early 2026 after graduation.</span>
-
-
 ---
 
 ### Research Interests
