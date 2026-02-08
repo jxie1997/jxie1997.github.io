@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an incoming senior machine learning engineer of *[Tesla](https://tesla.com/)*, Relaibility Engineering, starting early 2026.
+I am an senior machine learning engineer of *[Tesla](https://tesla.com/)*, working on relaibility engineering for energy and charging products.
 
 I obtained my Ph.D. from the interdisciplinary *[Computational Science and Engineering](https://cse.gatech.edu/)* program at Georgia Tech, advised by *[Prof. Cassie S. Mitchell](https://bme.gatech.edu/bme/faculty/Cassie-S.-Mitchell)* in the Laboratory for Pathology Dynamics. I previously earned my M.S. in the same program under the joint supervision of *[Prof. B. Aditya Prakash](https://faculty.cc.gatech.edu/~badityap/)* and *[Prof. Lauren N. Steimle](https://sites.gatech.edu/steimle/)*, focusing on WiFi networks, mobility data, and COVID-19 modeling. I hold a B.S. in Economics and Mathematics from Presbyterian College (South Carolina, USA). During my Ph.D., I interned at *[Amazon](https://www.amazon.science/)*, *[Tesla](https://tesla.com/)*, and *[Berkeley Lab](https://www.lbl.gov/)*.
 
@@ -41,5 +41,5 @@ Outside of research, I am a dreamer, reader, and enthusiastic audience member of
 
 ### Contact
 
-- **Email**: [jxie@gatech.edu](mailto:jxie@gatech.edu)  
+- **Email**: [jiajixie@tesla.com](jiajixie@tesla.com)  
 - **Resume**: [Download PDF](https://jxie1997.github.io/files/JiajiaXie_resume.pdf) *(Updated Nov 2025)*
