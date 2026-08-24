@@ -9,7 +9,7 @@ redirect_from:
 
 <!-- My full CV is [here](https://ranliu98.github.io/files/.pdf). -->
 
-My resume is [here](https://jiajiaxie.github.io/files/JiajiaXie_resume.pdf).
+My resume is [here](https://jiajiaxie.github.io/files/jiajia_xie_resume_tesla.pdf).
 
 
 
