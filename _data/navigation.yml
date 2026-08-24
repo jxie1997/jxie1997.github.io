@@ -6,7 +6,10 @@ main:
   - title: "Updates"
     url: /updates/
 
-  
+  - title: "Gallery"
+    url: /gallery/
+
+
 #  - title: "Projects"
 #    url: /projects/
 
