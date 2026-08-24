@@ -19,6 +19,11 @@
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    {% if page.lang == "zh" %}
+      <a href="{{ base_path }}/" class="lang-toggle" aria-label="Switch to English" title="Switch to English">EN</a>
+    {% else %}
+      <a href="{{ base_path }}/zh/" class="lang-toggle" aria-label="切换到中文" title="切换到中文">中文</a>
+    {% endif %}
     <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
       <i class="fas fa-moon theme-toggle__icon theme-toggle__icon--light" aria-hidden="true"></i>
       <i class="fas fa-sun theme-toggle__icon theme-toggle__icon--dark" aria-hidden="true"></i>
