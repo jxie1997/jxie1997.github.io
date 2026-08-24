@@ -51,4 +51,4 @@ Outside of research, I am a dreamer, reader, and enthusiastic audience member of
 ### Contact
 
 - **Email**: [jiajixie@tesla.com](jiajixie@tesla.com)  
-- **Resume**: [Download PDF](https://jxie1997.github.io/files/JiajiaXie_resume.pdf) *(Updated Nov 2025)*
+- **Resume**: [Download PDF](https://jxie1997.github.io/files/jiajia_xie_resume_tesla.pdf) *(Updated Aug 2026)*
