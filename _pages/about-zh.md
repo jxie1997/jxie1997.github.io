@@ -1,6 +1,7 @@
 ---
 permalink: /zh/
 lang: zh
+lang_alt: /
 title: "关于我"
 excerpt: "关于我"
 author_profile: true

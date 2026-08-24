@@ -2,6 +2,7 @@
 permalink: /
 excerpt: "About Me"
 author_profile: true
+lang_alt: /zh/
 redirect_from: 
   - /about/
   - /about.html

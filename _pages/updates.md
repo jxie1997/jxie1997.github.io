@@ -3,6 +3,7 @@ permalink: /updates/
 title: "Updates"
 excerpt: "Updates"
 author_profile: true
+lang_alt: /zh/updates/
 redirect_from: 
   - /updates
 ---
