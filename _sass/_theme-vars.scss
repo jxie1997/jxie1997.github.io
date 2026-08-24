@@ -1,0 +1,50 @@
+/* ==========================================================================
+   THEME VARIABLES (CSS custom properties for light/dark mode)
+   ========================================================================== */
+
+:root {
+  --color-bg              : #{$background-color};
+  --color-text            : #{$text-color};
+  --color-muted           : #{$light-gray};
+  --color-border          : #{$border-color};
+  --color-link            : #{$link-color};
+  --color-link-hover      : #{$link-color-hover};
+  --color-card-bg         : #ffffff;
+  --color-code-bg         : #{$code-background-color};
+  --color-masthead-bg     : #{$background-color};
+  --color-footer-bg       : #{$lighter-gray};
+  --color-nav-hover-bg    : #{$lighter-gray};
+  --color-shadow          : rgba(15, 23, 42, 0.06);
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) {
+    --color-bg            : #0f1115;
+    --color-text           : #e4e6eb;
+    --color-muted          : #9aa1ac;
+    --color-border         : #262a33;
+    --color-link           : #a5b4fc;
+    --color-link-hover     : #c7d2fe;
+    --color-card-bg        : #171a21;
+    --color-code-bg        : #1b1e25;
+    --color-masthead-bg    : #0f1115;
+    --color-footer-bg      : #14161b;
+    --color-nav-hover-bg   : #1e222b;
+    --color-shadow         : rgba(0, 0, 0, 0.35);
+  }
+}
+
+html[data-theme="dark"] {
+  --color-bg              : #0f1115;
+  --color-text            : #e4e6eb;
+  --color-muted           : #9aa1ac;
+  --color-border          : #262a33;
+  --color-link            : #a5b4fc;
+  --color-link-hover      : #c7d2fe;
+  --color-card-bg         : #171a21;
+  --color-code-bg         : #1b1e25;
+  --color-masthead-bg     : #0f1115;
+  --color-footer-bg       : #14161b;
+  --color-nav-hover-bg    : #1e222b;
+  --color-shadow          : rgba(0, 0, 0, 0.35);
+}

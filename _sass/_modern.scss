@@ -1,0 +1,157 @@
+/* ==========================================================================
+   MODERN POLISH
+   Clean, modern-minimal refinements layered on top of the base theme:
+   typography, spacing, link/button treatment, and the dark-mode toggle
+   control. Kept as an additive layer instead of rewriting every partial.
+   ========================================================================== */
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+::selection {
+  background: rgba($accent-color, 0.18);
+}
+
+a:focus-visible,
+button:focus-visible,
+.btn:focus-visible {
+  outline: 2px solid $accent-color;
+  outline-offset: 2px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.page__content li::marker {
+  color: $link-color;
+}
+
+.page__content h2 {
+  margin-top: 2em;
+  padding-bottom: 0.4em;
+}
+
+.page__content h3 {
+  margin-top: 1.75em;
+  font-size: $type-size-4;
+}
+
+hr {
+  margin: 2em 0;
+  opacity: 0.7;
+}
+
+/* buttons
+   ========================================================================== */
+
+.btn {
+  border-radius: 999px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  transition: $global-transition;
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba($accent-color, 0.25);
+  }
+}
+
+/* masthead
+   ========================================================================== */
+
+.masthead {
+  background-color: var(--color-masthead-bg);
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.masthead__inner-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.masthead__menu {
+  flex: 1;
+  min-width: 0;
+}
+
+.masthead__menu-item--lg a {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+/* theme toggle
+   ========================================================================== */
+
+.theme-toggle {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25em;
+  height: 2.25em;
+  margin-left: 1em;
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: transparent;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+
+  &:hover {
+    background: var(--color-nav-hover-bg);
+  }
+
+  .theme-toggle__icon--dark {
+    display: none;
+  }
+}
+
+html[data-theme="dark"] .theme-toggle {
+  .theme-toggle__icon--light {
+    display: none;
+  }
+
+  .theme-toggle__icon--dark {
+    display: inline-block;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) .theme-toggle {
+    .theme-toggle__icon--light {
+      display: none;
+    }
+
+    .theme-toggle__icon--dark {
+      display: inline-block;
+    }
+  }
+}
+
+/* sidebar / author card
+   ========================================================================== */
+
+.author__avatar img {
+  box-shadow: 0 2px 8px var(--color-shadow);
+}
+
+.author__name {
+  font-weight: 700;
+}
+
+.author__bio {
+  color: var(--color-muted);
+}
+
+.author__urls-wrapper li {
+  color: var(--color-muted);
+}

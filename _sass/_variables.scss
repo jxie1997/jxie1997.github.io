@@ -14,8 +14,8 @@ $indent-var                 : 1.3em;
 
 /* system typefaces */
 $serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace                  : Monaco, Consolas, "Lucida Console", monospace;
+$sans-serif                 : "Inter", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$monospace                  : "IBM Plex Mono", Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
@@ -47,25 +47,27 @@ $type-size-8                : 0.625em;  // ~10px
    Colors
    ========================================================================== */
 
-$gray                       : #7a8288;
+$gray                       : #6b7280;
 $dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+$darker-gray                : mix(#000, $gray, 65%);
+$light-gray                 : mix(#fff, $gray, 55%);
+$lighter-gray               : mix(#fff, $gray, 92%);
 
 $body-color                 : #fff;
 $background-color           : #fff;
-$code-background-color      : #fafafa;
+$code-background-color      : #f4f5f7;
 $code-background-color-dark : $light-gray;
 $text-color                 : $darker-gray;
 $border-color               : $lighter-gray;
 
-$primary-color              : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
-$danger-color               : #ee5f5b;
-$info-color                 : #52adc8;
-$info-color2                : #1d0eac;
+$accent-color               : #4f46e5;
+
+$primary-color              : $accent-color;
+$success-color              : #16a34a;
+$warning-color              : #d97706;
+$danger-color               : #dc2626;
+$info-color                 : #0891b2;
+$info-color2                : $accent-color;
 
 /* brands */
 $behance-color              : #1769FF;

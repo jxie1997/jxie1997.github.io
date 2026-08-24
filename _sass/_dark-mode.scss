@@ -1,0 +1,187 @@
+/* ==========================================================================
+   DARK MODE OVERRIDES
+   Uses the CSS custom properties defined in _theme-vars.scss. Imported last
+   so it wins the cascade over the theme's default (light-only) Sass output.
+   ========================================================================== */
+
+html {
+  background-color: var(--color-bg);
+  transition: background-color 0.2s ease-in-out;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+a {
+  color: var(--color-link);
+}
+
+a:hover {
+  color: var(--color-link-hover);
+}
+
+hr {
+  border-bottom-color: var(--color-border);
+}
+
+blockquote {
+  color: var(--color-muted);
+  border-left-color: var(--color-border);
+}
+
+/* masthead + navigation
+   ========================================================================== */
+
+.masthead {
+  background-color: var(--color-masthead-bg);
+  border-bottom-color: var(--color-border);
+}
+
+.masthead__menu-item a {
+  color: var(--color-text);
+}
+
+.greedy-nav {
+  background: var(--color-masthead-bg);
+
+  a {
+    color: var(--color-text);
+  }
+
+  .hidden-links {
+    background: var(--color-card-bg);
+    border-color: var(--color-border);
+
+    li {
+      border-bottom-color: var(--color-border);
+    }
+
+    &:after {
+      border-color: var(--color-card-bg) transparent;
+    }
+  }
+}
+
+.theme-toggle {
+  color: var(--color-text);
+}
+
+/* sidebar / author card
+   ========================================================================== */
+
+.author__avatar img {
+  border-color: var(--color-border);
+}
+
+.author__urls {
+  background: var(--color-card-bg);
+  border-color: var(--color-border);
+  box-shadow: 0 4px 16px var(--color-shadow);
+
+  &:after {
+    border-color: var(--color-card-bg) transparent;
+  }
+}
+
+/* page content
+   ========================================================================== */
+
+.page__content,
+.page__meta,
+.page__date,
+.page__related {
+  color: var(--color-text);
+}
+
+.page__meta,
+.page__date {
+  color: var(--color-muted);
+}
+
+.page__title,
+.page__lead {
+  color: var(--color-text);
+}
+
+.page__footer,
+.page__footer-copyright {
+  background-color: var(--color-footer-bg);
+  border-top-color: var(--color-border);
+  color: var(--color-muted);
+}
+
+.page__footer a {
+  color: var(--color-text);
+}
+
+/* code
+   ========================================================================== */
+
+code,
+tt {
+  background-color: var(--color-code-bg);
+  color: var(--color-text);
+}
+
+pre {
+  background-color: var(--color-code-bg);
+  color: var(--color-text);
+}
+
+div.highlighter-rouge,
+figure.highlight {
+  background-color: var(--color-code-bg);
+}
+
+/* tables
+   ========================================================================== */
+
+table {
+  border-color: var(--color-border);
+  background-color: var(--color-bg);
+
+  tr {
+    background-color: var(--color-bg);
+    border-top-color: var(--color-border);
+  }
+
+  tr:nth-child(2n) {
+    background-color: var(--color-card-bg);
+  }
+
+  th,
+  td {
+    border-color: var(--color-border);
+  }
+}
+
+/* notices
+   ========================================================================== */
+
+.notice,
+.notice--primary,
+.notice--info,
+.notice--warning,
+.notice--success,
+.notice--danger {
+  background-color: var(--color-card-bg);
+  color: var(--color-text);
+}
+
+/* archive / listing items (publications, talks, teaching, portfolio)
+   ========================================================================== */
+
+.list__item .archive__item,
+.archive__item {
+  color: var(--color-text);
+}
+
+.archive__item-title a {
+  color: var(--color-text);
+}
+
+.archive__item-excerpt {
+  color: var(--color-muted);
+}

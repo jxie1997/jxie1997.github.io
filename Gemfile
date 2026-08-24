@@ -9,19 +9,22 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-gem "github-pages", group: :jekyll_plugins
-
-# If you want to use Jekyll native, uncomment the line below.
-# To upgrade, run `bundle update`.
-
-# gem "jekyll"
+# NOTE: github-pages pins a very old Jekyll/Liquid that relies on Ruby APIs
+# (String#tainted?) removed in Ruby 3.2+, so it can't run locally on a modern
+# Ruby. GitHub's classic Pages build uses its own pinned environment on their
+# servers regardless of this Gemfile (no Actions workflow here), so using a
+# current Jekyll locally for previewing is safe and doesn't affect deploys.
+# gem "github-pages", group: :jekyll_plugins
+gem "jekyll"
+gem "webrick"
 
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  # gem "jekyll-archives"
   gem "jekyll-feed"
-  gem 'jekyll-sitemap'
-  gem 'hawkins'
+  gem "jekyll-sitemap"
+  gem "jekyll-gist"
+  gem "jekyll-redirect-from"
+  gem "jekyll-paginate"
 end
