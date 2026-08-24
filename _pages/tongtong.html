@@ -1,0 +1,199 @@
+---
+permalink: /tongtong/
+layout: single
+title: false
+author_profile: false
+robots: "noindex, nofollow"
+sitemap: false
+---
+
+<div class="tt-wrap">
+  <div class="tt-card" id="tt-card">
+    <p class="tt-question" id="tt-question">第一天上课时，我给你讲了什么内容？</p>
+
+    <form id="tt-form" autocomplete="off">
+      <input type="text" id="tt-input" class="tt-input" placeholder="在这里输入答案" />
+      <button type="submit" class="tt-btn" id="tt-btn">提交</button>
+    </form>
+
+    <p class="tt-hint" id="tt-hint"></p>
+  </div>
+</div>
+
+<style>
+  .page__content { display: flex; justify-content: center; }
+
+  .tt-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 3em 1em;
+  }
+
+  .tt-card {
+    width: 100%;
+    max-width: 420px;
+    padding: 2.5em 2em;
+    border: 1px solid var(--color-border);
+    border-radius: 16px;
+    background: var(--color-card-bg);
+    box-shadow: 0 4px 24px var(--color-shadow);
+    text-align: center;
+    transition: transform 0.15s ease-in-out;
+  }
+
+  .tt-card.tt-shake {
+    animation: tt-shake 0.4s;
+  }
+
+  @keyframes tt-shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-8px); }
+    40%, 80% { transform: translateX(8px); }
+  }
+
+  .tt-question {
+    font-size: 1.15em;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: 1.5em;
+    line-height: 1.6;
+  }
+
+  .tt-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.7em 1em;
+    font-size: 1em;
+    color: var(--color-text);
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+
+  .tt-input:focus {
+    outline: none;
+    border-color: var(--color-link);
+  }
+
+  .tt-btn {
+    padding: 0.6em 2em;
+    font-size: 1em;
+    font-weight: 600;
+    color: #fff;
+    background: var(--color-link);
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: opacity 0.15s ease-in-out;
+  }
+
+  .tt-btn:hover { opacity: 0.85; }
+  .tt-btn:disabled { opacity: 0.5; cursor: default; }
+
+  .tt-hint {
+    margin-top: 1em;
+    min-height: 1.2em;
+    color: var(--color-muted);
+    font-size: 0.95em;
+  }
+
+  .tt-hint.tt-wrong { color: #e0577b; }
+
+  .tt-reveal {
+    font-size: 1.6em;
+    font-weight: 700;
+    color: var(--color-text);
+    animation: tt-fade-in 0.6s ease-in-out;
+  }
+
+  @keyframes tt-fade-in {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>
+
+<script>
+(function () {
+  var PAYLOAD = {
+    salt: "2J9zy+X/EhM0xFPhLeyp/w==",
+    iv: "b80HBLNTG1KuG3nz",
+    ciphertext: "oCwW8gpirMWlWh5YHpoQDcV4k15I+oZiHg==",
+    iterations: 300000
+  };
+
+  function base64ToBytes(b64) {
+    var binStr = atob(b64);
+    var bytes = new Uint8Array(binStr.length);
+    for (var i = 0; i < binStr.length; i++) bytes[i] = binStr.charCodeAt(i);
+    return bytes;
+  }
+
+  function normalize(s) {
+    return s.normalize("NFKC").trim().replace(/\s+/g, "").toLowerCase();
+  }
+
+  function deriveKey(password, saltBytes, iterations) {
+    var enc = new TextEncoder();
+    return crypto.subtle.importKey(
+      "raw", enc.encode(password), { name: "PBKDF2" }, false, ["deriveKey"]
+    ).then(function (keyMaterial) {
+      return crypto.subtle.deriveKey(
+        { name: "PBKDF2", salt: saltBytes, iterations: iterations, hash: "SHA-256" },
+        keyMaterial,
+        { name: "AES-GCM", length: 256 },
+        false,
+        ["decrypt"]
+      );
+    });
+  }
+
+  function tryDecrypt(answer) {
+    var norm = normalize(answer);
+    var salt = base64ToBytes(PAYLOAD.salt);
+    var iv = base64ToBytes(PAYLOAD.iv);
+    var ciphertext = base64ToBytes(PAYLOAD.ciphertext);
+    return deriveKey(norm, salt, PAYLOAD.iterations).then(function (key) {
+      return crypto.subtle.decrypt({ name: "AES-GCM", iv: iv }, key, ciphertext);
+    }).then(function (plainBuf) {
+      return new TextDecoder().decode(plainBuf);
+    });
+  }
+
+  var form = document.getElementById("tt-form");
+  var input = document.getElementById("tt-input");
+  var btn = document.getElementById("tt-btn");
+  var hint = document.getElementById("tt-hint");
+  var card = document.getElementById("tt-card");
+  var question = document.getElementById("tt-question");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    if (!input.value.trim()) return;
+
+    btn.disabled = true;
+    hint.textContent = "";
+    hint.className = "tt-hint";
+
+    tryDecrypt(input.value).then(function (message) {
+      question.style.display = "none";
+      form.style.display = "none";
+      hint.textContent = "";
+      var reveal = document.createElement("p");
+      reveal.className = "tt-reveal";
+      reveal.textContent = message;
+      card.appendChild(reveal);
+    }).catch(function () {
+      btn.disabled = false;
+      hint.textContent = "再想想～";
+      hint.className = "tt-hint tt-wrong";
+      card.classList.remove("tt-shake");
+      void card.offsetWidth;
+      card.classList.add("tt-shake");
+      input.select();
+    });
+  });
+})();
+</script>
