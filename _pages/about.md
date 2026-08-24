@@ -20,10 +20,8 @@ I obtained my Ph.D. from the interdisciplinary *[Computational Science and Engin
 
 My work centers on making LLM-agent workflows trustworthy enough to support formal reliability engineering processes.
 
-- **LLM-agent evaluation for FMEA.** I design and optimize AI-agentic workflows that draft failure mode and effects analyses (FMEAs), and I build the evaluation layer that keeps them aligned with expert judgment and preference. This includes co-developing rubric-based benchmarks with engineering reviewers, where the rubrics serve as the reward signal, calibrated with RLHF on historical review outcomes.
-- **Knowledge-graph-driven fault tree generation.** I design, evaluate, and generate fault tree analyses from FMEA data using LLM-constructed knowledge graphs that infer causal relationships among potential failure modes, turning tabular failure-mode records into structured, auditable fault trees.
-
----
+- **LLM-agent evaluation for FMEA.** I design and optimize AI-agentic workflows that draft failure mode and effects analyses (FMEAs), and I build the evaluation layer that keeps them aligned with expert judgment and preference.
+- **Knowledge-graph-driven fault tree generation.** I design, evaluate, and produce ai-agentic workflow for fault tree analyses.
 
 ### Research Interests
 
